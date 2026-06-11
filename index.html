@@ -12,23 +12,64 @@
 <body>
 
     <header>
+
+         <!-- Logo da empresa -->
         <img class=" logo" src="./img/logo.png" alt="logo">
+
+         <!-- Botão para adicionar um novo produto -->
         <button class="btnProduto">
             <p>Novo prroduto</p>
         </button>
+
     </header>
 
     <main>
-        <div id="container">
+         <!-- Container que armazenará todos os cards de produtos -->
+        <div class="container">
+
+             <!-- Card de produto -->
             <div class="card">
+
+                <!-- Área destinada à imagem do produto -->
                 <div class="foto">
-                    <img  src="./img/Screenshot.png" alt="">
+                    <img src="./img/Screenshot.png" alt="">
                 </div>
-                 <p>nome Produto<p>
+
+                <!-- Área com as informações do produto -->
+                <div class="informacao">
+
+                    <!-- Nome do produto -->
+                    <p class="titulo">Cappuccino Clássico</p>
+                    <!-- descrição do produto -->
+                    <p class="descricao">Cremoso e marcante.</p>
+                    <!-- Preço do produto -->
+                    <p class="preco">R$ 00,00</p>
+
+                    <!-- Área dos botões de interação -->
+                    <div class="botoesInteracao">
+
+                         <!-- Botão para editar o produto -->
+                        <div class="btn btnEditar">
+                            <p>Editar</p>
+                        </div>
+
+                         <!-- Botão para excluir o produto -->
+                        <div class="btn btnExcluir">
+                            <p>Excluir</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
-           
-            </div>
+
+
+            
+
+        </div>
+
+        </div>
         </div>
     </main>
 
